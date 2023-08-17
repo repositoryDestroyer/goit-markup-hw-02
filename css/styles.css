@@ -16,6 +16,7 @@
     background-color: var(--white-cl);
     color: var(--text-cl);
     line-height: 1.5;
+    letter-spacing: 0.02em;
     font-size: var(--text-size);
   }
 
@@ -117,6 +118,11 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+  }
+
+  .work-title, .team-title {
+    text-transform: capitalize;
+    text-align: center;
   }
 
   .section-team {
