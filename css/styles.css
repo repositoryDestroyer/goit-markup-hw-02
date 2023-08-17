@@ -22,7 +22,9 @@
     font-family: Raleway, sans-serif;
     color: var(--primary-cl);
     font-size: 18px;
-    line-height: calc(21/18);
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
   }
@@ -39,6 +41,10 @@
     text-decoration: none;
   }
 
+  .list {
+    list-style: none;
+  }
+
   .menu .link {
     color: var(--dark-cl);
     font-weight: 500;
@@ -46,6 +52,7 @@
   .contacts .link {
     color: currentColor;
     font-style: normal;
+    letter-spacing: 0.02em;
   }
 
   .link:hover, .link:active, .link:focus {
@@ -116,16 +123,6 @@
   .filter-buttons:hover, .filter-buttons:focus {
     color: var(--white-cl);
     background-color: var(--pressed-cl);
-  }
-
-  .default-img-size {
-    width: 360px;
-    height: 300px;
-  }
-
-  .team-img {
-    width: 264px;
-    height: 260px;
   }
 
   .portfolio-card {
