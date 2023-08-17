@@ -16,6 +16,7 @@
     background-color: var(--white-cl);
     color: var(--text-cl);
     line-height: 1.5;
+    font-size: var(--text-size);
   }
 
   .logo-text {
@@ -48,11 +49,16 @@
   .menu .link {
     color: var(--dark-cl);
     font-weight: 500;
+    letter-spacing: 0.02em;
   }
+
   .contacts .link {
     color: currentColor;
-    font-style: normal;
     letter-spacing: 0.02em;
+  }
+  
+  .address-contacts {
+    font-style: normal;
   }
 
   .link:hover, .link:active, .link:focus {
@@ -68,10 +74,13 @@
   .section-main {
     background-color: var(--dark-cl);
     color: var(--white-cl);
-    font-size: 56px;
-    font-weight: 700px;
-    line-height: calc(60/56);
     text-align: center;
+  }
+
+  .title-main {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
   }
 
   .button {
@@ -79,13 +88,14 @@
     box-shadow: none;
     cursor: pointer;
     font-weight: 500;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: 0.04em;
   }
 
   .order-bt {
     background-color: var(--primary-cl);
-    width: 169px;
-    height: 56px;
-    border-radius: 4px;
     color: var(--white-cl);
   }
 
