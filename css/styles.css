@@ -85,7 +85,6 @@
 
   .button {
     border: none;
-    box-shadow: none;
     cursor: pointer;
     font-weight: 500;
     font-family: inherit;
@@ -109,12 +108,15 @@
 
   .secondary-title {
     font-size: var(--h2-font-size);
-    line-height: calc(40/36);
+    line-height: 1.11;
+    letter-spacing: 0.02em;
   }
 
   .small-title {
     font-size: var(--h3-font-size);
-    line-height: calc(24/20);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
   }
 
   .section-team {
