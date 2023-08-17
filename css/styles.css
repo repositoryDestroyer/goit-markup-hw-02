@@ -1,0 +1,134 @@
+  :root {
+    --h2-font-size: 36px;
+    --h3-font-size: 20px;
+    --text-size: 16px;
+    --primary-cl: #4D5AE5;
+    --pressed-cl: #404BBF;
+    --dark-cl: #2E2F42;
+    --text-cl: #434455;
+    --accent-cl: #E7E9FC;
+    --light-cl: #F4F4FD;
+    --white-cl: #fff;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white-cl);
+    color: var(--text-cl);
+    line-height: 1.5;
+  }
+
+  .logo-text {
+    font-family: Raleway, sans-serif;
+    color: var(--primary-cl);
+    font-size: 18px;
+    line-height: calc(21/18);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .logo-dark {
+    color: var(--dark-cl);
+  }
+
+  .logo-light {
+    color: var(--light-cl);
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  .menu .link {
+    color: var(--dark-cl);
+    font-weight: 500;
+  }
+  .contacts .link {
+    color: currentColor;
+    font-style: normal;
+  }
+
+  .link:hover, .link:active, .link:focus {
+    color: var(--pressed-cl);
+    text-decoration: underline;
+  }
+
+  .footer {
+    background-color: var(--dark-cl);
+    color: var(--light-cl);
+  }
+
+  .section-main {
+    background-color: var(--dark-cl);
+    color: var(--white-cl);
+    font-size: 56px;
+    font-weight: 700px;
+    line-height: calc(60/56);
+    text-align: center;
+  }
+
+  .button {
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .order-bt {
+    background-color: var(--primary-cl);
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    color: var(--white-cl);
+  }
+
+  .order-bt:hover, .order-bt:focus {
+    background-color: var(--pressed-cl);
+  }
+
+  .default-title {
+    color: var(--dark-cl);
+  }
+
+  .secondary-title {
+    font-size: var(--h2-font-size);
+    line-height: calc(40/36);
+  }
+
+  .small-title {
+    font-size: var(--h3-font-size);
+    line-height: calc(24/20);
+  }
+
+  .section-team {
+    background-color: var(--light-cl);
+  }
+
+  .team-card {
+    background-color: var(--white-cl);
+  }
+
+  .filter-buttons {
+    color: var(--primary-cl);
+    background-color: var(--light-cl);
+  }
+
+  .filter-buttons:hover, .filter-buttons:focus {
+    color: var(--white-cl);
+    background-color: var(--pressed-cl);
+  }
+
+  .default-img-size {
+    width: 360px;
+    height: 300px;
+  }
+
+  .team-img {
+    width: 264px;
+    height: 260px;
+  }
+
+  .portfolio-card {
+    background-color: var(--white-cl);
+    border: 1px solid #E7E9FC;
+  }
